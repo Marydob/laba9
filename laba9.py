@@ -14,7 +14,7 @@ for picture in a:
     path1 = os.path.join(dir, picture)
     path2 = os.path.join(output_dir, "новая картинка|" + picture)
     apply_filter(path1, path2)
-#2
+#3
 import csv
 cnt=0
 with open('Книга1.csv', newline='', encoding='cp1251') as f:
